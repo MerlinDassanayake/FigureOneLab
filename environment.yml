@@ -1,0 +1,21 @@
+name: figure-one-lab
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - anndata
+  - scanpy
+  - scvi-tools
+  - pybiomart
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # remove this line if you have GPU support
