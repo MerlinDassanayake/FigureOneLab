@@ -2,6 +2,7 @@ name: figure-one-lab
 channels:
   - conda-forge
   - pytorch
+  - bioconda
   - defaults
 dependencies:
   - python=3.11
