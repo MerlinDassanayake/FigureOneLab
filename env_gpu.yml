@@ -1,0 +1,25 @@
+name: figure-one-lab
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - anndata
+  - scanpy
+  - pybiomart
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-lightning  # Remove version pin
+  - torchmetrics       # Remove version pin
+  - cudatoolkit
+  - pip                # Add pip for scvi-tools
