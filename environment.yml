@@ -2,10 +2,10 @@ name: figure-one-lab
 channels:
   - conda-forge
   - pytorch
-  - bioconda
   - defaults
+  - bioconda
 dependencies:
-  - python=3.11
+  - python=3.9
   - numpy
   - pandas
   - scipy
@@ -14,9 +14,11 @@ dependencies:
   - jupyter
   - anndata
   - scanpy
-  - scvi-tools
   - pybiomart
   - pytorch
   - torchvision
   - torchaudio
-  - cpuonly  # remove this line if you have GPU support
+  - cpuonly
+  - scvi-tools=0.17.4  # Pin scvi-tools version
+  - pytorch-lightning=1.7.7  # Compatible version
+  - torchmetrics=0.9.1  # Compatible version
