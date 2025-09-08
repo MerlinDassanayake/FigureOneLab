@@ -4,4 +4,5 @@
 .pybiomart.sqlite
 *.gz
 .venv
-.idea/
+/.idea/
+/.conda/
