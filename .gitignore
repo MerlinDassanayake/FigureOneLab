@@ -3,6 +3,7 @@
 **/.DS_Store
 .pybiomart.sqlite
 *.gz
+*.h5ad
 .venv
 /.idea/
 /.conda/
